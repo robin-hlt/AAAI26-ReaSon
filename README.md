@@ -14,7 +14,7 @@ The official implementation of ReaSon
 
 ## 🙏 Acknowledgements
 
-Our implementation builds upon and is inspired by the following excellent open-source projects:
+We sincerely thank the following open-source projects for providing essential components that contributed to our work
 
-- [**TStar**](https://github.com/mll-lab-nu/TStar): for the heuristic frame selection strategy that inspired the initial stage of our reinforced search pipeline.  
-- [**LLaVA-NeXT**](https://github.com/LLaVA-VL/LLaVA-NeXT): for providing a strong vision-language backbone and training framework that facilitated our visual-language modeling.
+- [**TStar**](https://github.com/mll-lab-nu/TStar)
+- [**LLaVA-Video**](https://github.com/LLaVA-VL/LLaVA-NeXT)
