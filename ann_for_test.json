@@ -1,0 +1,20 @@
+[
+    {
+        "video_id": "0074f737-11cb-497d-8d07-77c3a8127391",
+        "video_path": "test_video/0074f737-11cb-497d-8d07-77c3a8127391.mp4",
+        "question": "Taking into account all the actions performed by c, what can you deduce about the primary objective and focus within the video content?",
+        "options": "A) C is cooking.\nB) C is doing laundry.\nC) C is cleaning the kitchen.\nD) C is cleaning dishes.\nE) C is cleaning the bathroom.",
+        "answer": "D",
+        "duration_group": 180,
+        "gt_frame_index": []
+    },
+    {
+        "video_id": "00f93e1e-cf4e-4835-88b4-4ad68216e86f",
+        "video_path": "test_video/00f93e1e-cf4e-4835-88b4-4ad68216e86f.mp4",
+        "question": "What is the overarching theme of the video, considering the activities performed by both characters?",
+        "options": "A) The overarching central theme presented in the video is that individuals can be both sociable and independent simultaneously. the visual content demonstrates that it is entirely possible to be both connected to others meaningfully and to savor solitary moments, emphasizing that it is crucial to find a harmonious balance between these two aspects.\nB) The overarching theme of the video is that people can be both engaged in challenging activities and enjoying leisurely activities at the same time. the video shows that it is possible to be both productive and relaxed, and that it is important to find a balance between the two.\nC) The primary, overarching theme presented in the video emphasizes that individuals can truly be both creative and practical simultaneously. the enlightening video demonstrates the realistic possibility of being both highly imaginative and remarkably efficient, while stressing the significance of discovering an equilibrium between these two essential aspects.\nD) The overarching theme of the video is that people can be both ambitious and humble. the video shows that it is possible to be both driven and modest, and that it is important to find a balance between the two.\nE) The primary overarching theme presented in the video is that individuals can simultaneously possess and exhibit both intelligence and emotional aspects. effectively, the video demonstrates that the coexistence of rational and intuitive qualities is feasible, emphasizing the significance of establishing equilibrium between these two crucial elements.",
+        "answer": "B",
+        "duration_group": 180,
+        "gt_frame_index": []
+    }
+]
