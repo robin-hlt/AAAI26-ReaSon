@@ -59,6 +59,9 @@ mkdir -p data/coco/lvis
 wget -O data/coco/lvis/lvis_v1_minival_inserted_image_name.json https://huggingface.co/GLIPModel/GLIP/resolve/main/lvis_v1_minival_inserted_image_name.json
 mkdir -p data/texts
 wget -O data/texts/lvis_v1_class_texts.json https://github.com/AILab-CVC/YOLO-World/raw/refs/heads/master/data/texts/lvis_v1_class_texts.json
+
+# Fix YOLO-World small bug
+sed -i "s/self.text_feats, None/self.text_feats, _/g" YOLO-World/yolo_world/models/detectors/yolo_world.py
 ```
 
 </details>
@@ -71,9 +74,8 @@ Run demo_reason.py to perform **reinforced causal search** and answer video ques
 
 ```bash
 python demo_reason.py \
-    --video path/to/video.mp4 \
-    --question "What is the person doing after opening the door?" \
-    --save_dir outputs/demo
+   --ann ann_for_test.json \
+   --video-id 0074f737-11cb-497d-8d07-77c3a8127391
 ```
 
 </details>
