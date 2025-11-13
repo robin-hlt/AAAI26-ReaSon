@@ -1,0 +1,8 @@
+accelerate==0.26.0
+decord==0.6.0
+imageio==2.36.1
+transformers==4.49.0
+scikit-learn==1.6.1
+openai==1.59.3
+open_clip_torch==3.2.0
+lvis @ git+https://github.com/lvis-dataset/lvis-api.git@7d7f07def11da91f8b2710ce352c62a78fd5a7ad
