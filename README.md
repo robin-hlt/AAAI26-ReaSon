@@ -1,6 +1,6 @@
 # [AAAI 2026] ReaSon: Reinforced Causal Search with Information Bottleneck for Video Understanding
 
-The official implementation of ReaSon
+The official implementation of ReaSon.
 
 
 ## 📢 News
