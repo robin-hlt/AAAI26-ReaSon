@@ -67,10 +67,12 @@ sed -i "s/self.text_feats, None/self.text_feats, _/g" YOLO-World/yolo_world/mode
 </details>
 
 <details>
-<summary> 📥Policy Checkpoints</summary>
-| Model             | Description                       | Link |
-|-------------------|-----------------------------------|------|
-| **ReaSon-Policy** | selection policy checkpoint         | 🤗 [Hugging Face](https://huggingface.co/RobinHua/ReaSon/tree/main) |
+<summary>📥 Policy Checkpoints</summary>
+
+| Model             | Description                 | Link |
+|-------------------|-----------------------------|------|
+| **ReaSon-Policy** | selection policy checkpoint | 🤗 [Hugging Face](https://huggingface.co/RobinHua/ReaSon/tree/main) |
+
 </details>
 
 
