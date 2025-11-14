@@ -66,6 +66,13 @@ sed -i "s/self.text_feats, None/self.text_feats, _/g" YOLO-World/yolo_world/mode
 
 </details>
 
+<details>
+<summary> 📥Policy Checkpoints</summary>
+| Model                 | Description                               | Link |
+|-----------------------|-------------------------------------------|------|
+| **ReaSon-Policy**     | Official policy checkpoint for ReaSon     | 🤗 [Hugging Face](https://huggingface.co/RobinHua/ReaSon/tree/main) |
+</details>
+
 
 <details>
 <summary>🎬 Inference Demo</summary>
