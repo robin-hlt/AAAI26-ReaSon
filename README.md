@@ -68,7 +68,7 @@ sed -i "s/self.text_feats, None/self.text_feats, _/g" YOLO-World/yolo_world/mode
 
 <details>
 <summary>📥 Policy Checkpoints</summary>
-Download and place into `checkpoints/`
+
 | Model             | Description                 | Link |
 |-------------------|-----------------------------|------|
 | **ReaSon-Policy** | selection policy checkpoint | 🤗 [Hugging Face](https://huggingface.co/RobinHua/ReaSon/tree/main) |
@@ -79,7 +79,7 @@ Download and place into `checkpoints/`
 <details>
 <summary>🎬 Inference Demo</summary>
 
-Run demo_reason.py to perform **reinforced causal search** and answer video questions:
+Download the policy checkpoint and place it place into `checkpoints/`. Run demo_reason.py to perform **reinforced causal search** and answer video questions:
 
 ```bash
 python demo_reason.py \
