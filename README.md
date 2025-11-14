@@ -73,6 +73,7 @@ sed -i "s/self.text_feats, None/self.text_feats, _/g" YOLO-World/yolo_world/mode
 |-------------------|-----------------------------|------|
 | **ReaSon-Policy** | selection policy checkpoint | 🤗 [Hugging Face](https://huggingface.co/RobinHua/ReaSon/tree/main) |
 
+Download and place into `checkpoints/`
 </details>
 
 
