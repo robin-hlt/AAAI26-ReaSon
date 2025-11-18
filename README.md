@@ -11,9 +11,10 @@ The official implementation of "[ReaSon: Reinforced Causal Search with Informati
 
 ## 🧩 To-Do List
 
-- [ ] 📄 Release the paper (arXiv preprint & project page)  
+- [x] 📄 Release the paper (arXiv preprint & project page)
+- [x] 🚀 Release pretrained ReaSon policy  
 - [ ] 💻 Release full codes, including training and inference  
-- [ ] 🚀 Release pretrained ReaSon policy  
+ 
 
 ## 🚀 Quick Start
 
@@ -68,7 +69,7 @@ sed -i "s/self.text_feats, None/self.text_feats, _/g" YOLO-World/yolo_world/mode
 </details>
 
 <details>
-<summary>📥 Policy Checkpoints</summary>
+<summary>🤗 Policy Checkpoints</summary>
 
 | Model             | Description                 | Link |
 |-------------------|-----------------------------|------|
