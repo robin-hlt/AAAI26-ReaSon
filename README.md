@@ -12,7 +12,7 @@ The official implementation of "[ReaSon: Reinforced Causal Search with Informati
 ## 🧩 To-Do List
 
 - [x] 📄 Release the paper (arXiv preprint & project page)
-- [x] 🚀 Release pretrained ReaSon policy  
+- [x] 🚀 Release checkpoint of ReaSon policy  
 - [ ] 💻 Release full codes, including training and inference  
  
 
