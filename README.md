@@ -1,11 +1,12 @@
 # [AAAI 2026] ReaSon: Reinforced Causal Search with Information Bottleneck for Video Understanding
 
-The official implementation of ReaSon.
+The official implementation of "[ReaSon: Reinforced Causal Search with Information Bottleneck for Video Understanding](https://arxiv.org/abs/2511.12530)" (AAAI 2026) in Pytorch.
 
 
 ## 📢 News
 
-- **[2025.11.13]** We realse codes of inference demo.
+- **[2025.11.16]** We realsed the paper [![arXiv](https://img.shields.io/badge/arXiv-2511.12530-b31b1b.svg)](https://arxiv.org/abs/2511.12530).
+- **[2025.11.13]** We realsed codes of inference demo.
 - **[2025.11.08]** 🎉🎉 Our paper **"ReaSon: Reinforced Causal Search with Information Bottleneck for Video Understanding"** has been **accepted to AAAI 2026**!
 
 ## 🧩 To-Do List
