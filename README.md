@@ -122,7 +122,7 @@ python demo_reason.py \
 ## 📦 Train on Your Own Dataset
 
 <details>
-<summary>📘 Dataset Format</summary>
+<summary>📘 Dataset Preparation</summary>
 
 To train ReaSon on your own data, prepare a JSON file where each element represents one video–question sample.
 
@@ -154,6 +154,12 @@ Each item requires the following keys:
   }
 ]
 ```
+
+The original datasets used in our experiments can be obtained from the following sources:
+
+- [NExT-QA](https://github.com/doc-doc/NExT-QA)  
+- [EgoSchema](https://egoschema.github.io/)  
+- [Video-MME](https://video-mme.github.io/home_page.html)
 
 </details>
 
