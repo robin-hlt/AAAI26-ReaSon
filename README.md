@@ -77,7 +77,7 @@ AAAI26-ReaSon/
 ├── LLaVA-NeXT/                     # LLaVA-Video (or Qwen if you used Qwen)
 ├── checkpoints/                    # Save checkpoints
 ├── ReaSon/                         # Core implementation of the ReaSon framework
-│   ├── interface_grounding.py      # Video–language grounding (LLaVA-Video)
+│   ├── interface_grounding.py      # Video–language grounding (LLaVA-Video\Qwen\GPT)
 │   ├── interface_heuristic.py      # YOLO-World heuristic object extraction
 │   ├── interface_searcher.py       # Detection for candidate pool
 │   ├── policy_core.py              # Policy network and trainer
