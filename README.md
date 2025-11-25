@@ -93,7 +93,7 @@ AAAI26-ReaSon/
 └── README.md                       # Documentation
 ```
  
-<details>
+</details>
 
 <details>
 <summary>🤗 Policy Checkpoints</summary>
