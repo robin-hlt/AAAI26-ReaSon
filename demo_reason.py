@@ -128,10 +128,4 @@ if __name__ == "__main__":
         options    = [opt.strip() for opt in args.options.split(",") if opt.strip()]
 
     run_single(video_path, question, options, groundtruth=ground_gt)
-
-
-
-
-# python evaluate_single.py \
-#   --ann egoschema_subset.json \
-#   --video-id 0074f737-11cb-497d-8d07-77c3a8127391
+    
