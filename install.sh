@@ -1,6 +1,7 @@
 conda create -n reason python=3.9
 conda activate reason
 git clone https://github.com/robin-hlt/AAAI26-ReaSon.git
+cd AAAI26-ReaSon
 
 # Do this if you want to re-train the selectiob policy or use LLaVA-Video for inference.
 # If you want to use GPT for quick start, no need to download LLaVA. LLaVA is used by default.
@@ -34,3 +35,4 @@ wget -O data/texts/lvis_v1_class_texts.json https://github.com/AILab-CVC/YOLO-Wo
 
 # Fix YOLO-World text_feats unpacking bug
 sed -i "s/self.text_feats, None/self.text_feats, _/g" YOLO-World/yolo_world/models/detectors/yolo_world.py
+
