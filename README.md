@@ -93,6 +93,65 @@ python demo_reason.py \
 </details>
 
 
+## 📦 Train on Your Own Dataset
+
+<details>
+<summary>📘 Dataset Format</summary>
+
+To train ReaSon on your own data, prepare a JSON file where each element represents one video–question sample.
+
+Each item requires the following keys:
+
+- **video_id**: unique identifier  
+- **video_path**: path to the video file  
+- **question**: natural language question  
+- **options**: multi-choice text (single line or multi-line)  
+- **answer**: ground-truth answer label (A/B/C/…)  
+
+Optional keys (`duration_group`, `gt_frame_index`) can be ignored if not used.
+
+**Example:**
+
+```json
+[
+  {
+    "video_id": "0074f737-11cb-497d-8d07-77c3a8127391",
+    "video_path": "/path/to/videos/0074f737-11cb-497d-8d07-77c3a8127391.mp4",
+    "question": "Taking into account all the actions performed by C, what can you deduce about the primary objective and focus within the video content?",
+    "options": "A) C is cooking. B) C is doing laundry. C) C is cleaning the kitchen. D) C is cleaning dishes. E) C is cleaning the bathroom.",
+    "answer": "D",
+    "duration_group": 180,
+    "gt_frame_index": []
+  },
+  {
+    "video_id": "00b9a0de-c59e-49cb-a127-6081e2fb8c8e",
+    "video_path": "/path/to/videos/00b9a0de-c59e-49cb-a127-6081e2fb8c8e.mp4",
+    "question": "What was the primary purpose of the cup of water in this video, and how did it contribute to the overall painting process?",
+    "options": "A) To provide a source of water for the paintbrush. B) To provide a place to store the paintbrush. C) To provide a place to dispose of the paintbrush. D) To provide a place to rest the paintbrush. E) To clean the paintbrush.",
+    "answer": "E",
+    "duration_group": 180,
+    "gt_frame_index": []
+  }
+]
+```
+
+</details>
+
+<details>
+<summary>🛠️ Training Script</summary>
+
+Run the following command to train ReaSon:
+
+```bash
+python train.py \
+    --data-json your_dataset.json \
+    --save-dir checkpoints/
+```
+
+\</details>
+
+
+
 ## 🙏 Acknowledgements
 
 We sincerely thank the following open-source projects for providing essential components that contributed to our work
