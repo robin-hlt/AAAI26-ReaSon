@@ -142,7 +142,7 @@ python train.py \
     --save-dir checkpoints/
 ```
 
-\</details>
+</details>
 
 
 
