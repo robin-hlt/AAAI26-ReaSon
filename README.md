@@ -71,6 +71,7 @@ sed -i "s/self.text_feats, None/self.text_feats, _/g" YOLO-World/yolo_world/mode
 
 <details>
 <summary>📁 Project Structure</summary>
+ 
 ```
 AAAI26-ReaSon/
 ├── LLaVA-NeXT/                     # LLaVA-Video (or Qwen if you used Qwen)
@@ -91,6 +92,7 @@ AAAI26-ReaSon/
 ├── requirements_basic.txt          # Basic dependencies
 └── README.md                       # Documentation
 ```
+ 
 <details>
 
 <details>
