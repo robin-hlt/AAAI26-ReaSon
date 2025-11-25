@@ -33,6 +33,7 @@ Or install manually:
 conda create -n reason python=3.9 -y
 conda activate reason
 git clone https://github.com/robin-hlt/AAAI26-ReaSon.git
+cd AAAI26-ReaSon
 
 # Install LLaVA-Video (optional)
 git clone https://github.com/LLaVA-VL/LLaVA-NeXT
