@@ -70,6 +70,30 @@ sed -i "s/self.text_feats, None/self.text_feats, _/g" YOLO-World/yolo_world/mode
 </details>
 
 <details>
+<summary>📁 Project Structure</summary>
+```
+AAAI26-ReaSon/
+├── LLaVA-NeXT/                     # LLaVA-Video (or Qwen if you used Qwen)
+├── checkpoints/                    # Save checkpoints
+├── ReaSon/                         # Core implementation of the ReaSon framework
+│   ├── interface_grounding.py      # Video–language grounding (LLaVA-Video)
+│   ├── interface_heuristic.py      # YOLO-World heuristic object extraction
+│   ├── interface_searcher.py       # Detection for candidate pool
+│   ├── policy_core.py              # Policy network and trainer
+│   ├── ReaSonFramework.py          # Reinforced causal search pipeline
+│   └── utilites.py                 # Hepler and shared utilities
+├── YOLO-World/                     # YOLO-World detector repo
+├── test_video/                     # Example videos for demo
+├── ann_for_test.json               # Annotation JSON for inference demo
+├── demo_reason.py                  # Inference demo script
+├── train.py                        # ReaSon training script
+├── install.sh                      # Environment setup
+├── requirements_basic.txt          # Basic dependencies
+└── README.md                       # Documentation
+```
+<details>
+
+<details>
 <summary>🤗 Policy Checkpoints</summary>
 
 | Model             | Description                 | Link |
