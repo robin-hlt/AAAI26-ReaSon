@@ -108,8 +108,6 @@ Each item requires the following keys:
 - **options**: multi-choice text (single line or multi-line)  
 - **answer**: ground-truth answer label (A/B/C/…)  
 
-Optional keys (`duration_group`, `gt_frame_index`) can be ignored if not used.
-
 **Example:**
 
 ```json
@@ -119,18 +117,14 @@ Optional keys (`duration_group`, `gt_frame_index`) can be ignored if not used.
     "video_path": "/path/to/videos/0074f737-11cb-497d-8d07-77c3a8127391.mp4",
     "question": "Taking into account all the actions performed by C, what can you deduce about the primary objective and focus within the video content?",
     "options": "A) C is cooking. B) C is doing laundry. C) C is cleaning the kitchen. D) C is cleaning dishes. E) C is cleaning the bathroom.",
-    "answer": "D",
-    "duration_group": 180,
-    "gt_frame_index": []
+    "answer": "D"
   },
   {
     "video_id": "00b9a0de-c59e-49cb-a127-6081e2fb8c8e",
     "video_path": "/path/to/videos/00b9a0de-c59e-49cb-a127-6081e2fb8c8e.mp4",
     "question": "What was the primary purpose of the cup of water in this video, and how did it contribute to the overall painting process?",
     "options": "A) To provide a source of water for the paintbrush. B) To provide a place to store the paintbrush. C) To provide a place to dispose of the paintbrush. D) To provide a place to rest the paintbrush. E) To clean the paintbrush.",
-    "answer": "E",
-    "duration_group": 180,
-    "gt_frame_index": []
+    "answer": "E"
   }
 ]
 ```
